@@ -1,12 +1,12 @@
-import { GAME_WORD_LEN } from '@/lib/constants';
+import { GAME_WORD_LEN } from '@/utils/constants';
 
-type Props = { letters: string };
+type Props = { guess: string };
 
-export const GuessRow = ({ letters }: Props) => {
+export const GuessRow = ({ guess }: Props) => {
   return (
     <div className="flex gap-x-2">
       {Array.from({ length: GAME_WORD_LEN }).map((_, idx) => (
-        <Tile key={idx} letter={letters[idx]} />
+        <Tile key={idx} letter={guess ? guess[idx] : ''} />
       ))}
     </div>
   );

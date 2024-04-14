@@ -2,11 +2,12 @@
 
 import { FaBackspace } from 'react-icons/fa';
 import { Button } from './ui/button';
+import { BACKSPACE, ENTER } from '@/utils/constants';
 
 const ROWS = [
   'QWERTYUIOP'.split(''), //['Q','W'...]
   'ASDFGHJKL'.split(''),
-  ['BACKSPACE', ...'ZXCVBNM'.split(''), 'ENTER'],
+  [BACKSPACE, ...'ZXCVBNM'.split(''), ENTER],
 ];
 
 type Props = {
@@ -19,13 +20,7 @@ export const Keyboard = ({ onKeyPress }: Props) => {
         return (
           <div key={index} className="flex gap-1.5 w-full">
             {letters.map((letter, idx) => {
-              return (
-                <Key
-                  key={letter as string}
-                  letter={letter}
-                  onKeyPress={onKeyPress}
-                />
-              );
+              return <Key key={idx} letter={letter} onKeyPress={onKeyPress} />;
             })}
           </div>
         );
@@ -44,12 +39,12 @@ export const Key = ({ letter, onKeyPress }: KeyProps) => {
     <Button
       onClick={() => onKeyPress(letter)}
       className={`${
-        letter != 'BACKSPACE' && letter != 'ENTER' ? ' flex-1' : 'flex-grow'
+        letter != BACKSPACE && letter != ENTER ? ' flex-1' : 'flex-grow'
       } p-1 text-xl bg-slate-600 hover:bg-slate-500`}
       size={'lg'}
       variant={'outline'}
     >
-      {letter == 'BACKSPACE' ? <FaBackspace className="h-6 w-8" /> : letter}
+      {letter == BACKSPACE ? <FaBackspace className="h-6 w-8" /> : letter}
     </Button>
   );
 };
