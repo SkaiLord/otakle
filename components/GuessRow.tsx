@@ -54,7 +54,7 @@ export const Tile = ({ letter, state, idx, bounce }: TileProps) => {
         animationDelay: state === 'default' ? '0ms' : `${animationDelay}ms`,
       }}
       className={cn(
-        'h-16 w-16 rounded-md border  flex items-center justify-center text-3xl',
+        'h-12 w-12 rounded-md border  flex items-center justify-center text-xl',
         {
           'border-gray-500': state === 'default' && !letter,
           // 'border-gray-300 animate-pop': !!letter,

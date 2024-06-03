@@ -49,7 +49,7 @@ export const Key = ({ letter, onKeyPress, letterState }: KeyProps) => {
   return (
     <Button
       onClick={() => onKeyPress(letter)}
-      className={cn('p-1 text-xl flex-1', {
+      className={cn('p-0.5 text-xl flex-1 text-base', {
         'flex-[1.5]': letter === BACKSPACE || letter === ENTER,
         'bg-slate-400 hover:bg-slate-500 active:bg-slate-400':
           letterState === 'default',
