@@ -83,10 +83,9 @@ export default function Game({ solution }: { solution: GameSolution }) {
     }
     if (guesses.length + 1 === GAME_ROUNDS) {
       setGameCompletionState("lost");
-      toast({
-        variant: "destructive",
-        description: "Better luck next time 🍀",
-      });
+      setTimeout(() => {
+        setGameOver(true);
+      }, 2000);
     }
   }, [
     currentGuess,

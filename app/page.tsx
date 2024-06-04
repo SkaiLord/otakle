@@ -19,7 +19,7 @@ export default function Home() {
     setSolution(getRandomWord());
     setTimeout(() => {
       setLoading(false);
-      console.log(solution);
+      // console.log(solution);
     }, 2000);
   }, []);
   console.log(solution);
