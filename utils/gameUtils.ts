@@ -23,9 +23,10 @@ export const getTodaysWord = () => {
   // Get today's word
   const match = answerWords.filter((item, _) => item.date === date);
   // console.log(match);
-  return match[0].word;
+  if (match.length !== 0) return match[0];
+  else return getRandomWord();
 };
 
 export const getRandomWord = () => {
-  return answerWords[Math.floor(Math.random() * answerWords.length)].word;
+  return answerWords[Math.floor(Math.random() * answerWords.length)];
 };

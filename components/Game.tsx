@@ -14,20 +14,18 @@ import { useCallback, useEffect, useRef, useState } from 'react';
 import { useToast } from '@/components/ui/use-toast';
 import { isValidWord } from "@/utils/gameUtils";
 import { getTileStates } from "@/utils/getTileStates";
-import { GameCompletion, LetterState } from "@/types";
+import { GameCompletion, GameSolution, LetterState } from "@/types";
 import {
   getStoredGameState,
   setStoredGameState,
 } from "@/utils/gameStateStorage";
 import { IoCloseOutline } from "react-icons/io5";
 import { Button } from "./ui/button";
+import { useRouter } from "next/navigation";
 
-type Props = {
-  solution: string;
-};
-
-export default function Game({ solution }: Props) {
+export default function Game({ solution }: { solution: GameSolution }) {
   const { toast } = useToast();
+  const router = useRouter();
 
   const [currentGuess, dispatch] = useCurrentGuessReducer();
   const [guesses, setGuesses] = useState<string[]>([]);
@@ -36,7 +34,7 @@ export default function Game({ solution }: Props) {
   const [shakeCurrentRow, setShakeCurrentRow] = useState(false);
   const shakeTimeout = useRef<number>();
 
-  const [modalOpen, setModalOpen] = useState(false);
+  const [gameOver, setGameOver] = useState(false);
 
   const setGuessesCallback = useCallback(
     (guesses: string[]) => {
@@ -73,13 +71,13 @@ export default function Game({ solution }: Props) {
     }
     setGuessesCallback([...guesses, currentGuess]);
     dispatch({ type: "clear" });
-    if (currentGuess === solution) {
+    if (currentGuess === solution.word) {
       setTimeout(() => {
         setGameCompletionState("won");
       }, 2000);
       // TODO: Add success animation & modal open
       setTimeout(() => {
-        setModalOpen(true);
+        setGameOver(true);
       }, 4000);
       return;
     }
@@ -142,7 +140,7 @@ export default function Game({ solution }: Props) {
   const guessIdxToTileStates = Array.from({ length: GAME_ROUNDS }).map(
     (_, idx) => {
       const isSubmitted = idx < guesses.length;
-      return getTileStates(solution, guesses[idx], isSubmitted);
+      return getTileStates(solution.word, guesses[idx], isSubmitted);
     },
   );
 
@@ -199,13 +197,13 @@ export default function Game({ solution }: Props) {
         />
       </div>
       {/* TODO: Add modal for new game */}
-      {modalOpen && (
+      {gameOver && (
         <div className="fixed inset-0 z-50 grid place-items-center overflow-auto bg-black/80 p-4 data-[state=open]:animate-in data-[state=closed]:animate-out data-[state=closed]:fade-out-0 data-[state=open]:fade-in-0">
           <div className="relative z-50 grid w-full max-w-lg gap-4 border bg-background p-6 shadow-lg duration-200 data-[state=open]:animate-in data-[state=closed]:animate-out data-[state=closed]:fade-out-0 data-[state=open]:fade-in-0 data-[state=closed]:zoom-out-95 data-[state=open]:zoom-in-95 data-[state=closed]:slide-out-to-left-1/2 data-[state=closed]:slide-out-to-top-[48%] data-[state=open]:slide-in-from-left-1/2 data-[state=open]:slide-in-from-top-[48%] sm:rounded-lg">
             <div className="absolute right-4 top-4 flex justify-between">
               <IoCloseOutline
                 className="h-6 w-6 hover:cursor-pointer"
-                onClick={() => setModalOpen(false)}
+                onClick={() => setGameOver(false)}
               />
             </div>
             <div className="flex flex-col items-center justify-center gap-y-2">
@@ -214,11 +212,32 @@ export default function Game({ solution }: Props) {
                 {gameCompletionState == "won" ? "🏆!" : "😢"}
               </div>
               <div className="h-0.5 w-full bg-tile-wrong"></div>
-              <div className="text-center">
-                The word was:{" "}
-                <span className="text-tile-correct">{solution}</span>
+              <div className="flex w-full justify-between">
+                <div className="flex flex-col gap-y-2 md:gap-y-4">
+                  {["word", "fullWord", "anime"].map((item, index) => (
+                    <div className="grid grid-cols-2 gap-x-2" key={index}>
+                      {item}
+                      <span className="text-tile-correct">
+                        {": " + solution[item as keyof GameSolution]}
+                      </span>
+                    </div>
+                  ))}
+                </div>
+                <div className="w-auto">
+                  <Image
+                    src={solution.imgUrl}
+                    alt={solution.anime}
+                    width={150}
+                    height={200}
+                    className=""
+                  />
+                </div>
               </div>
-              <Button variant="success" className="w-fit">
+              <Button
+                variant="success"
+                className="w-fit"
+                onClick={() => window.location.reload()}
+              >
                 New Game
               </Button>
             </div>

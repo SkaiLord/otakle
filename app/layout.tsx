@@ -24,7 +24,7 @@ export default function RootLayout({
       <body className={shojumaru.className}>
         <ThemeProvider
           attribute="class"
-          defaultTheme="system"
+          defaultTheme="dark"
           enableSystem
           disableTransitionOnChange
         >
