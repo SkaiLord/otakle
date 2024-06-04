@@ -19,42 +19,43 @@ import { GAME_WORD_LEN } from '@/utils/constants';
 import { Tile } from './GuessRow';
 import { LetterState } from '@/types';
 import { cn } from '@/lib/utils';
+import { LuGithub } from "react-icons/lu";
 
 export default function Navbar() {
-  const helpWord = 'TABLE'.split('');
+  const helpWord = "TABLE".split("");
   const helpStates: LetterState[] = [
-    'wrong',
-    'misplaced',
-    'wrong',
-    'misplaced',
-    'correct',
+    "wrong",
+    "misplaced",
+    "wrong",
+    "misplaced",
+    "correct",
   ];
-  const closeWord = 'FLASH'.split('');
+  const closeWord = "FLASH".split("");
   const closeStates: LetterState[] = [
-    'correct',
-    'correct',
-    'correct',
-    'wrong',
-    'wrong',
+    "correct",
+    "correct",
+    "correct",
+    "wrong",
+    "wrong",
   ];
 
   return (
-    <nav className="w-full h-fit flex justify-center items-center p-4">
-      <div className="md:w-1/2 flex md:gap-4 xs:gap-8 justify-between items-center">
-        <div className="flex gap-4 items-center">
+    <nav className="flex h-fit w-full items-center justify-center p-4">
+      <div className="xs:gap-8 flex items-center justify-between md:w-1/2 md:gap-4">
+        <div className="flex items-center gap-4">
           <DialogButton
             trigger={{
-              type: 'icon',
-              icon: <BiHelpCircle className="w-6 h-6" />,
+              type: "icon",
+              icon: <BiHelpCircle className="h-6 w-6" />,
             }}
             title="Help"
             className="flex flex-col items-center gap-4 font-mono"
           >
-            <div className="text-xs text-center">
+            <div className="text-center text-xs">
               You have to guess the hidden word in 6 tries and the color of the
               letters changes to show how close you are.
             </div>
-            <div className="text-xs text-center">
+            <div className="text-center text-xs">
               To start the game, just enter any word, for example:
             </div>
             {/* Test Word */}
@@ -63,15 +64,15 @@ export default function Navbar() {
                 <div
                   key={idx}
                   className={cn(
-                    'h-12 w-12 rounded-md border  flex items-center justify-center text-xl',
+                    "flex h-12 w-12 items-center justify-center rounded-md border text-xl",
                     {
-                      'bg-tile-correct border-tile-correct':
-                        helpStates[idx] === 'correct',
-                      'bg-tile-wrong border-tile-wrong':
-                        helpStates[idx] === 'wrong',
-                      'bg-tile-misplaced border-tile-misplaced':
-                        helpStates[idx] === 'misplaced',
-                    }
+                      "border-tile-correct bg-tile-correct":
+                        helpStates[idx] === "correct",
+                      "border-tile-wrong bg-tile-wrong":
+                        helpStates[idx] === "wrong",
+                      "border-tile-misplaced bg-tile-misplaced":
+                        helpStates[idx] === "misplaced",
+                    },
                   )}
                 >
                   {helpWord[idx]}
@@ -79,14 +80,14 @@ export default function Navbar() {
               ))}
             </div>
             {/* Info box */}
-            <div className="bg-primary-foreground w-full rounded-lg border-dashed p-4 flex flex-col gap-2 text-xs">
+            <div className="flex w-full flex-col gap-2 rounded-lg border-dashed bg-primary-foreground p-4 text-xs">
               {/* Wrong box */}
               <div className="flex items-center">
-                <div className="h-6 w-6 rounded-md border flex items-center justify-center bg-tile-wrong border-tile-wrong">
+                <div className="flex h-6 w-6 items-center justify-center rounded-md border border-tile-wrong bg-tile-wrong">
                   T
                 </div>
                 ,
-                <div className="h-6 w-6 rounded-md border flex items-center justify-center bg-tile-wrong border-tile-wrong">
+                <div className="flex h-6 w-6 items-center justify-center rounded-md border border-tile-wrong bg-tile-wrong">
                   B
                 </div>
                 <div className="ml-1">
@@ -95,11 +96,11 @@ export default function Navbar() {
               </div>
               {/* Misplaced box */}
               <div className="flex items-center">
-                <div className="h-6 w-6 rounded-md border flex items-center justify-center bg-tile-misplaced border-tile-misplaced">
+                <div className="flex h-6 w-6 items-center justify-center rounded-md border border-tile-misplaced bg-tile-misplaced">
                   A
                 </div>
                 ,
-                <div className="h-6 w-6 rounded-md border flex items-center justify-center bg-tile-misplaced border-tile-misplaced">
+                <div className="flex h-6 w-6 items-center justify-center rounded-md border border-tile-misplaced bg-tile-misplaced">
                   L
                 </div>
                 <div className="ml-1">
@@ -108,7 +109,7 @@ export default function Navbar() {
               </div>
               {/* Correct box */}
               <div className="flex items-center">
-                <div className="h-6 w-6 rounded-md border flex items-center justify-center bg-tile-correct border-tile-correct">
+                <div className="flex h-6 w-6 items-center justify-center rounded-md border border-tile-correct bg-tile-correct">
                   E
                 </div>
                 <div className="ml-1">
@@ -116,7 +117,7 @@ export default function Navbar() {
                 </div>
               </div>
             </div>
-            <div className="text-xs text-center">
+            <div className="text-center text-xs">
               Another try to find matching letters in the target word.
             </div>
             {/* Close Word */}
@@ -125,15 +126,15 @@ export default function Navbar() {
                 <div
                   key={idx}
                   className={cn(
-                    'h-12 w-12 rounded-md border  flex items-center justify-center text-xl',
+                    "flex h-12 w-12 items-center justify-center rounded-md border text-xl",
                     {
-                      'bg-tile-correct border-tile-correct':
-                        closeStates[idx] === 'correct',
-                      'bg-tile-wrong border-tile-wrong':
-                        closeStates[idx] === 'wrong',
-                      'bg-tile-misplaced border-tile-misplaced':
-                        closeStates[idx] === 'misplaced',
-                    }
+                      "border-tile-correct bg-tile-correct":
+                        closeStates[idx] === "correct",
+                      "border-tile-wrong bg-tile-wrong":
+                        closeStates[idx] === "wrong",
+                      "border-tile-misplaced bg-tile-misplaced":
+                        closeStates[idx] === "misplaced",
+                    },
                   )}
                 >
                   {closeWord[idx]}
@@ -141,49 +142,49 @@ export default function Navbar() {
               ))}
             </div>
             <div className="text-xs">So close!</div>
-            {/* Corect Word */}
+            {/* Correct Word */}
             <div className="flex gap-1">
-              {'FLAME'.split('').map((item, idx) => (
+              {"FLAME".split("").map((item, idx) => (
                 <div
                   key={idx}
-                  className="h-12 w-12 rounded-md border  flex items-center justify-center text-xl bg-tile-correct border-tile-correct"
+                  className="flex h-12 w-12 items-center justify-center rounded-md border border-tile-correct bg-tile-correct text-xl"
                 >
                   {item}
                 </div>
               ))}
             </div>
-            <div className="font-semibold text-xs">Got it!🏆</div>
+            <div className="text-xs font-semibold">Got it!🏆</div>
           </DialogButton>
           <DialogButton
-            trigger={{ type: 'icon', icon: <BsGear className="w-6 h-6" /> }}
+            trigger={{ type: "icon", icon: <BsGear className="h-6 w-6" /> }}
             title="Settings"
           >
             <div>Hello World</div>
           </DialogButton>
         </div>
-        <Link href="/" className="flex items-center text-xl font-bold">
+        <Link href="/" className="flex items-center gap-x-2 text-xl font-bold">
           <Image
             alt="logo"
-            className="cursor-pointer w-8 h-8 rounded-full object-cover"
-            src="/logo.svg"
+            className="h-8 w-8 cursor-pointer rounded-md object-cover"
+            src="/otakle-logo.png"
             height={50}
             width={50}
           />
           Otakle
         </Link>
-        <div className="flex gap-4 items-center">
+        <div className="flex items-center gap-4">
           <Link
             href={
               process.env.NEXT_PUBLIC_GITHUB_URL ||
-              'https://github.com/SkaiLord/'
+              "https://github.com/SkaiLord/"
             }
           >
             <Button
-              variant="default"
-              className="rounded-full w-fit gap-2 items-center flex p-1.5"
-              size="sm"
+              variant="outline"
+              className="flex w-fit items-center gap-2 rounded-md p-2"
+              size="icon"
             >
-              <BsGithub className="h-fit w-6" />
+              <LuGithub className="h-fit w-6" />
             </Button>
           </Link>
           <ModeToggle />
