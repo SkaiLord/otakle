@@ -22,7 +22,7 @@ export default function Home() {
       // console.log(solution);
     }, 2000);
   }, []);
-  console.log(solution);
+  // console.log(solution);
   // TODO: Add auth layer
   // TODO: Share url/secret_path
   return (

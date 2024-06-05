@@ -87,6 +87,12 @@ export default function Game({ solution }: { solution: GameSolution }) {
         setGameOver(true);
       }, 2000);
     }
+    if (guesses.length + 1 >= 3) {
+      toast({
+        variant: "default",
+        description: `💡 Hint : ${solution.anime}`,
+      });
+    }
   }, [
     currentGuess,
     setGuessesCallback,

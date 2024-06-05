@@ -159,7 +159,7 @@ export default function Navbar() {
             trigger={{ type: "icon", icon: <BsGear className="h-6 w-6" /> }}
             title="Settings"
           >
-            <div>Hello World</div>
+            <div>Coming Soon!</div>
           </DialogButton>
         </div>
         <Link href="/" className="flex items-center gap-x-2 text-xl font-bold">
