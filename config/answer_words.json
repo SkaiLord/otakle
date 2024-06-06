@@ -1,1287 +1,293 @@
 [
   {
-    "date": "28-01-2022",
-    "word": "TOUKA",
-    "fullWord": "TOUKA KIRISHIMA",
-    "anime": "TOKYO GHOUL",
-    "imgUrl": "https://i.imgur.com/DWGLaNP.png"
-  },
-  {
-    "date": "29-01-2022",
-    "word": "MISTY",
-    "fullWord": "MISTY",
-    "anime": "POKEMON (SERIES)",
-    "imgUrl": "https://i.imgur.com/7UqlEwX.png"
-  },
-  {
-    "date": "30-01-2022",
-    "word": "MUZAN",
-    "fullWord": "MUZAN KIBUTSUJI",
-    "anime": "DEMON SLAYER: KIMETSU NO YAIBA",
-    "imgUrl": "https://i.imgur.com/neOWRJU.png"
-  },
-  {
-    "date": "31-01-2022",
-    "word": "CLOUD",
-    "fullWord": "CLOUD STRIFE",
-    "anime": "FINAL FANTASY VII",
-    "imgUrl": "https://i.imgur.com/i16pOj4.png"
-  },
-  {
-    "date": "01-02-2022",
-    "word": "VIDEL",
-    "fullWord": "VIDEL",
-    "anime": "DRAGON BALL Z",
-    "imgUrl": "https://i.imgur.com/hVEpbxu.png"
-  },
-  {
-    "date": "02-02-2022",
-    "word": "SHIRO",
-    "fullWord": "SHIRO",
-    "anime": "DEADMAN WONDERLAND",
-    "imgUrl": "https://i.imgur.com/VRBSE0T.png"
-  },
-  {
-    "date": "03-02-2022",
-    "word": "RAZOR",
-    "fullWord": "RAZOR",
-    "anime": "GENSHIN IMPACT",
-    "imgUrl": "https://i.imgur.com/AZTp5Lf.png"
-  },
-  {
-    "date": "04-02-2022",
-    "word": "SENKO",
-    "fullWord": "SENKO-SAN",
-    "anime": "THE HELPFUL FOX SENKO-SAN",
-    "imgUrl": "https://i.imgur.com/HtVsDrb.png"
-  },
-  {
-    "date": "05-02-2022",
-    "word": "JINTA",
-    "fullWord": "JINTA YADOMI",
-    "anime": "ANOHANA: THE FLOWER WE SAW THAT DAY",
-    "imgUrl": "https://i.imgur.com/WoSYDVK.png"
-  },
-  {
-    "date": "06-02-2022",
-    "word": "AREZU",
-    "fullWord": "AREZU",
-    "anime": "POKEMON LEGENDS: ARCEUS",
-    "imgUrl": "https://i.imgur.com/s4ZQKFh.png"
-  },
-  {
-    "date": "07-02-2022",
-    "word": "KARMA",
-    "fullWord": "KARMA AKABANE",
-    "anime": "ASSASSINATION CLASSROOM",
-    "imgUrl": "https://i.imgur.com/Pkkk39H.png"
-  },
-  {
-    "date": "08-02-2022",
-    "word": "DANTE",
-    "fullWord": "DANTE",
-    "anime": "DEVIL MAY CRY",
-    "imgUrl": "https://i.imgur.com/hqwGnf1.png"
-  },
-  {
-    "date": "09-02-2022",
-    "word": "PIECK",
-    "fullWord": "PIECK FINGER",
-    "anime": "ATTACK ON TITAN",
-    "imgUrl": "https://i.imgur.com/SuaAn7E.png"
-  },
-  {
-    "date": "10-02-2022",
-    "word": "KAEDE",
-    "fullWord": "KAEDE AZUSAGAWA",
-    "anime": "RASCAL DOES NOT DREAM OF BUNNY GIRL SENPAI",
-    "imgUrl": "https://i.imgur.com/RUEyCUd.png"
-  },
-  {
-    "date": "11-02-2022",
-    "word": "SHULK",
-    "fullWord": "SHULK",
-    "anime": "XENOBLADE CHRONICLES",
-    "imgUrl": "https://i.imgur.com/c5S7X3t.png"
-  },
-  {
-    "date": "12-02-2022",
-    "word": "TRISH",
-    "fullWord": "TRISH UNA",
-    "anime": "JOJO'S BIZARRE ADVENTURE: GOLDEN WIND",
-    "imgUrl": "https://i.imgur.com/NWhBbXw.png"
-  },
-  {
-    "date": "13-02-2022",
-    "word": "FUSHI",
-    "fullWord": "FUSHI",
-    "anime": "TO YOUR ETERNITY",
-    "imgUrl": "https://i.imgur.com/408PEcF.png"
-  },
-  {
-    "date": "14-02-2022",
-    "word": "BANJO",
-    "fullWord": "BANJO",
-    "anime": "BANJO-KAZOOIE",
-    "imgUrl": "https://i.imgur.com/ai62m2N.png"
-  },
-  {
-    "date": "15-02-2022",
-    "word": "SINON",
-    "fullWord": "SINON",
-    "anime": "SWORD ART ONLINE",
-    "imgUrl": "https://i.imgur.com/Kwz5ZZp.png"
-  },
-  {
-    "date": "16-02-2022",
+    "date": "16-02-2024",
     "word": "RANPO",
     "fullWord": "RANPO EDOGAWA",
     "anime": "BUNGO STRAY DOGS",
     "imgUrl": "https://i.imgur.com/a53w8QP.png"
   },
   {
-    "date": "17-02-2022",
-    "word": "ROXAS",
-    "fullWord": "ROXAS",
-    "anime": "KINGDOM HEARTS",
-    "imgUrl": "https://i.imgur.com/SZ6c8PS.png"
-  },
-  {
-    "date": "18-02-2022",
-    "word": "MIDNA",
-    "fullWord": "MIDNA",
-    "anime": "THE LEGEND OF ZELDA: TWILIGHT PRINCESS",
-    "imgUrl": "https://i.imgur.com/UMLHyoq.png"
-  },
-  {
-    "date": "19-02-2022",
-    "word": "TOBIO",
-    "fullWord": "TOBIO KAGEYAMA",
-    "anime": "HAIKYUU!!",
-    "imgUrl": "https://i.imgur.com/UVyWsoP.png"
-  },
-  {
-    "date": "20-02-2022",
-    "word": "CRONA",
-    "fullWord": "CRONA",
-    "anime": "SOUL EATER",
-    "imgUrl": "https://i.imgur.com/HVOObdp.png"
-  },
-  {
-    "date": "21-02-2022",
-    "word": "DECIM",
-    "fullWord": "DECIM",
-    "anime": "DEATH PARADE",
-    "imgUrl": "https://i.imgur.com/MpmRX0f.png"
-  },
-  {
-    "date": "22-02-2022",
-    "word": "NAOTO",
-    "fullWord": "NAOTO SHIROGANE",
-    "anime": "PERSONA 4",
-    "imgUrl": "https://i.imgur.com/6VhGZRH.png"
-  },
-  {
-    "date": "23-02-2022",
-    "word": "FELIX",
-    "fullWord": "FELIX ARGYLE",
-    "anime": "RE:ZERO - STARTING LIFE IN ANOTHER WORLD",
-    "imgUrl": "https://i.imgur.com/Rn81mvv.png"
-  },
-  {
-    "date": "24-02-2022",
-    "word": "LOTTE",
-    "fullWord": "LOTTE JANSSON",
-    "anime": "LITTLE WITCH ACADEMIA",
-    "imgUrl": "https://i.imgur.com/WutThNY.png"
-  },
-  {
-    "date": "25-02-2022",
-    "word": "REIMU",
-    "fullWord": "REIMU HAKUREI",
-    "anime": "TOUHOU PROJECT",
-    "imgUrl": "https://i.imgur.com/qiJWRYd.png"
-  },
-  {
-    "date": "26-02-2022",
+    "date": "26-02-2024",
     "word": "SANJI",
     "fullWord": "SANJI",
     "anime": "ONE PIECE",
     "imgUrl": "https://i.imgur.com/1uGtQas.png"
   },
   {
-    "date": "27-02-2022",
-    "word": "WENDY",
-    "fullWord": "WENDY MARVELL",
-    "anime": "FAIRY TAIL",
-    "imgUrl": "https://i.imgur.com/aN84lX9.png"
-  },
-  {
-    "date": "28-02-2022",
-    "word": "GUILE",
-    "fullWord": "GUILE",
-    "anime": "STREET FIGHTER II",
-    "imgUrl": "https://i.imgur.com/486Y1J1.png"
-  },
-  {
-    "date": "01-03-2022",
-    "word": "KENDO",
-    "fullWord": "ITSUKA KENDO",
-    "anime": "MY HERO ACADEMIA",
-    "imgUrl": "https://i.imgur.com/bl0UL7L.png"
-  },
-  {
-    "date": "02-03-2022",
-    "word": "DAISY",
-    "fullWord": "PRINCESS DAISY",
-    "anime": "SUPER MARIO (SERIES)",
-    "imgUrl": "https://i.imgur.com/rcbH2hG.png"
-  },
-  {
-    "date": "03-03-2022",
-    "word": "SIDON",
-    "fullWord": "PRINCE SIDON",
-    "anime": "THE LEGEND OF ZELDA: BREATH OF THE WILD",
-    "imgUrl": "https://i.imgur.com/31nPubt.png"
-  },
-  {
-    "date": "04-03-2022",
-    "word": "SOUMA",
-    "fullWord": "SOUMA YUKIHIRA",
-    "anime": "FOOD WARS",
-    "imgUrl": "https://i.imgur.com/F8bp3a0.png"
-  },
-  {
-    "date": "05-03-2022",
+    "date": "05-03-2024",
     "word": "TAIGA",
     "fullWord": "TAIGA AISAKA",
     "anime": "TORADORA!",
     "imgUrl": "https://i.imgur.com/5JORi5k.png"
   },
   {
-    "date": "06-03-2022",
-    "word": "CHROM",
-    "fullWord": "CHROM",
-    "anime": "FIRE EMBLEM AWAKENING",
-    "imgUrl": "https://i.imgur.com/avzLOwI.png"
-  },
-  {
-    "date": "07-03-2022",
+    "date": "07-03-2024",
     "word": "YUKIO",
     "fullWord": "YUKIO OKUMURA",
     "anime": "BLUE EXORCIST",
     "imgUrl": "https://i.imgur.com/45T73bb.png"
   },
   {
-    "date": "08-03-2022",
-    "word": "WINRY",
-    "fullWord": "WINRY ROCKBELL",
-    "anime": "FULLMETAL ALCHEMIST",
-    "imgUrl": "https://i.imgur.com/BrsbX81.png"
-  },
-  {
-    "date": "09-03-2022",
-    "word": "PONYO",
-    "fullWord": "PONYO",
-    "anime": "PONYO",
-    "imgUrl": "https://i.imgur.com/Da9ht1o.png"
-  },
-  {
-    "date": "10-03-2022",
-    "word": "IBUKI",
-    "fullWord": "IBUKI MIODA",
-    "anime": "DANGANRONPA 2: GOODBYE DESPAIR",
-    "imgUrl": "https://i.imgur.com/Z225bhL.png"
-  },
-  {
-    "date": "11-03-2022",
-    "word": "LOUIS",
-    "fullWord": "LOUIS",
-    "anime": "BEASTARS",
-    "imgUrl": "https://i.imgur.com/p52p4za.png"
-  },
-  {
-    "date": "12-03-2022",
-    "word": "LAURA",
-    "fullWord": "LAURA BODEWIG",
-    "anime": "INFINITE STRATOS",
-    "imgUrl": "https://i.imgur.com/0PZBYnB.png"
-  },
-  {
-    "date": "13-03-2022",
+    "date": "13-03-2024",
     "word": "GAARA",
     "fullWord": "GAARA",
     "anime": "NARUTO",
     "imgUrl": "https://i.imgur.com/9vhKTGt.png"
   },
   {
-    "date": "14-03-2022",
-    "word": "SNAKE",
-    "fullWord": "SOLID SNAKE",
-    "anime": "METAL GEAR SOLID",
-    "imgUrl": "https://i.imgur.com/nMk8qNW.png"
-  },
-  {
-    "date": "15-03-2022",
+    "date": "15-03-2024",
     "word": "CHISE",
     "fullWord": "CHISE HATORI",
     "anime": "THE ANCIENT MAGUS' BRIDE",
     "imgUrl": "https://i.imgur.com/RTED4te.png"
   },
   {
-    "date": "16-03-2022",
+    "date": "16-03-2024",
     "word": "HYOMA",
     "fullWord": "HYOMA CHIGIRI",
     "anime": "BLUE LOCK",
     "imgUrl": "https://i.imgur.com/AZUlpVi.png"
   },
   {
-    "date": "17-03-2022",
-    "word": "DIANE",
-    "fullWord": "DIANE",
-    "anime": "THE SEVEN DEADLY SINS",
-    "imgUrl": "https://i.imgur.com/5dTlmME.png"
-  },
-  {
-    "date": "18-03-2022",
-    "word": "NESSA",
-    "fullWord": "NESSA",
-    "anime": "POKEMON SWORD/SHIELD",
-    "imgUrl": "https://i.imgur.com/ZBYippm.png"
-  },
-  {
-    "date": "19-03-2022",
-    "word": "ARION",
-    "fullWord": "ARION SHERWIND",
-    "anime": "INAZUMA ELEVEN GO",
-    "imgUrl": "https://i.imgur.com/b48cYr5.png"
-  },
-  {
-    "date": "20-03-2022",
+    "date": "20-03-2024",
     "word": "SENJU",
     "fullWord": "SENJU KAWARAGI",
     "anime": "TOKYO REVENGERS",
     "imgUrl": "https://i.imgur.com/0jaa4i3.png"
   },
   {
-    "date": "21-03-2022",
-    "word": "GANYU",
-    "fullWord": "GANYU",
-    "anime": "GENSHIN IMPACT",
-    "imgUrl": "https://i.imgur.com/z2MbKi3.png"
-  },
-  {
-    "date": "22-03-2022",
-    "word": "IKUNO",
-    "fullWord": "IKUNO",
-    "anime": "DARLING IN THE FRANXX",
-    "imgUrl": "https://i.imgur.com/ZEay5Ck.png"
-  },
-  {
-    "date": "23-03-2022",
-    "word": "GODOT",
-    "fullWord": "GODOT",
-    "anime": "PHOENIX WRIGHT: ACE ATTORNEY - TRIALS AND TRIBULATIONS",
-    "imgUrl": "https://i.imgur.com/YFGnwMo.png"
-  },
-  {
-    "date": "24-03-2022",
-    "word": "SUIKA",
-    "fullWord": "SUIKA",
-    "anime": "DR. STONE",
-    "imgUrl": "https://i.imgur.com/Tvm8e8P.png"
-  },
-  {
-    "date": "25-03-2022",
-    "word": "LANGA",
-    "fullWord": "LANGA HASEGAWA",
-    "anime": "SK8 THE INFINITY",
-    "imgUrl": "https://i.imgur.com/doBkMom.png"
-  },
-  {
-    "date": "26-03-2022",
+    "date": "26-03-2024",
     "word": "SHUNA",
     "fullWord": "SHUNA",
     "anime": "THAT TIME I GOT REINCARNATED AS A SLIME",
     "imgUrl": "https://i.imgur.com/E9KpIFO.png"
   },
   {
-    "date": "27-03-2022",
-    "word": "KONGO",
-    "fullWord": "KONGO-SENSEI",
-    "anime": "LAND OF THE LUSTROUS",
-    "imgUrl": "https://i.imgur.com/Kwjvmlg.png"
-  },
-  {
-    "date": "28-03-2022",
-    "word": "KIRBY",
-    "fullWord": "KIRBY",
-    "anime": "KIRBY (SERIES)",
-    "imgUrl": "https://i.imgur.com/ZtecXkN.png"
-  },
-  {
-    "date": "29-03-2022",
-    "word": "PANTY",
-    "fullWord": "PANTY ANARCHY",
-    "anime": "PANTY AND STOCKING WITH GARTERBELT",
-    "imgUrl": "https://i.imgur.com/9OqyVL5.png"
-  },
-  {
-    "date": "30-03-2022",
-    "word": "MACHI",
-    "fullWord": "MACHI KOMACINE",
-    "anime": "HUNTER X HUNTER",
-    "imgUrl": "https://i.imgur.com/Nn5h5rk.png"
-  },
-  {
-    "date": "31-03-2022",
-    "word": "GRELL",
-    "fullWord": "GRELL SUTCLIFF",
-    "anime": "BLACK BUTLER",
-    "imgUrl": "https://i.imgur.com/YKcvxNB.png"
-  },
-  {
-    "date": "01-04-2022",
-    "word": "JOKER",
-    "fullWord": "JOKER (REN AMAMIYA)",
-    "anime": "PERSONA 5",
-    "imgUrl": "https://i.imgur.com/1XUKYoC.png"
-  },
-  {
-    "date": "02-04-2022",
-    "word": "RENGE",
-    "fullWord": "RENGE MIYAUCHI",
-    "anime": "NON NON BIYORI",
-    "imgUrl": "https://i.imgur.com/jLg67gr.png"
-  },
-  {
-    "date": "03-04-2022",
-    "word": "YASUO",
-    "fullWord": "YASUO",
-    "anime": "LEAGUE OF LEGENDS",
-    "imgUrl": "https://i.imgur.com/EzZCxY6.png"
-  },
-  {
-    "date": "04-04-2022",
-    "word": "BOJJI",
-    "fullWord": "BOJJI",
-    "anime": "RANKING OF KINGS",
-    "imgUrl": "https://i.imgur.com/FM3Qyur.png"
-  },
-  {
-    "date": "05-04-2022",
+    "date": "05-04-2024",
     "word": "ARMIN",
     "fullWord": "ARMIN ARLERT",
     "anime": "ATTACK ON TITAN",
     "imgUrl": "https://i.imgur.com/vAmke3L.png"
   },
   {
-    "date": "06-04-2022",
+    "date": "06-04-2024",
     "word": "TOORU",
     "fullWord": "TOORU HAGAKURE",
     "anime": "MY HERO ACADEMIA",
     "imgUrl": "https://i.imgur.com/FveVYhu.png"
   },
   {
-    "date": "07-04-2022",
-    "word": "FRISK",
-    "fullWord": "FRISK",
-    "anime": "UNDERTALE",
-    "imgUrl": "https://i.imgur.com/VYeeqDX.png"
-  },
-  {
-    "date": "08-04-2022",
-    "word": "IKUYA",
-    "fullWord": "IKUYA KIRISHIMA",
-    "anime": "FREE!",
-    "imgUrl": "https://i.imgur.com/q9JBksF.png"
-  },
-  {
-    "date": "09-04-2022",
-    "word": "GAROU",
-    "fullWord": "GAROU",
-    "anime": "ONE PUNCH MAN",
-    "imgUrl": "https://i.imgur.com/vvIjVYY.png"
-  },
-  {
-    "date": "10-04-2022",
-    "word": "FAUST",
-    "fullWord": "FAUST",
-    "anime": "GUILTY GEAR",
-    "imgUrl": "https://i.imgur.com/dvgdVv1.png"
-  },
-  {
-    "date": "11-04-2022",
-    "word": "REINA",
-    "fullWord": "REINA KOUSAKA",
-    "anime": "SOUND! EUPHONIUM",
-    "imgUrl": "https://i.imgur.com/394wA2Q.png"
-  },
-  {
-    "date": "12-04-2022",
-    "word": "VIPER",
-    "fullWord": "VIPER",
-    "anime": "VALORANT",
-    "imgUrl": "https://i.imgur.com/Uutta3q.png"
-  },
-  {
-    "date": "13-04-2022",
-    "word": "ITARU",
-    "fullWord": "ITARU HASHIDA",
-    "anime": "STEINS;GATE",
-    "imgUrl": "https://i.imgur.com/xlGQQt6.png"
-  },
-  {
-    "date": "14-04-2022",
-    "word": "AKIRA",
-    "fullWord": "AKIRA FUDO",
-    "anime": "DEVILMAN",
-    "imgUrl": "https://i.imgur.com/6onawt3.png"
-  },
-  {
-    "date": "15-04-2022",
-    "word": "SIMON",
-    "fullWord": "SIMON",
-    "anime": "GURREN LAGANN",
-    "imgUrl": "https://i.imgur.com/As7wvxi.png"
-  },
-  {
-    "date": "16-04-2022",
-    "word": "SKYLA",
-    "fullWord": "SKYLA",
-    "anime": "POK?MON BLACK/WHITE",
-    "imgUrl": "https://i.imgur.com/g6jZN5B.png"
-  },
-  {
-    "date": "17-04-2022",
-    "word": "BLAKE",
-    "fullWord": "BLAKE BELLADONNA",
-    "anime": "RWBY",
-    "imgUrl": "https://i.imgur.com/nGJ2cS3.png"
-  },
-  {
-    "date": "18-04-2022",
-    "word": "RENJI",
-    "fullWord": "RENJI ABARAI",
-    "anime": "BLEACH",
-    "imgUrl": "https://i.imgur.com/97Yr2nL.png"
-  },
-  {
-    "date": "19-04-2022",
-    "word": "MAYOI",
-    "fullWord": "MAYOI HACHIKUJI",
-    "anime": "BAKEMONOGATARI",
-    "imgUrl": "https://i.imgur.com/5PtNwHL.png"
-  },
-  {
-    "date": "20-04-2022",
-    "word": "SPIKE",
-    "fullWord": "SPIKE SPIEGEL",
-    "anime": "COWBOY BEBOP",
-    "imgUrl": "https://i.imgur.com/Ag8qxd0.png"
-  },
-  {
-    "date": "21-04-2022",
-    "word": "NOIRE",
-    "fullWord": "NOIRE",
-    "anime": "HYPERDIMENSION NEPTUNIA",
-    "imgUrl": "https://i.imgur.com/CMbkhfh.png"
-  },
-  {
-    "date": "22-04-2022",
-    "word": "GUREN",
-    "fullWord": "GUREN ICHINOSE",
-    "anime": "SERAPH OF THE END",
-    "imgUrl": "https://i.imgur.com/VImITR9.png"
-  },
-  {
-    "date": "23-04-2022",
-    "word": "AMBER",
-    "fullWord": "AMBER",
-    "anime": "GENSHIN IMPACT",
-    "imgUrl": "https://i.imgur.com/udJrd0O.png"
-  },
-  {
-    "date": "24-04-2022",
-    "word": "CHIYO",
-    "fullWord": "CHIYO SAKURA",
-    "anime": "MONTHLY GIRLS' NOZAKI-KUN",
-    "imgUrl": "https://i.imgur.com/4ObGnG1.png"
-  },
-  {
-    "date": "25-04-2022",
-    "word": "RITSU",
-    "fullWord": "RITSU KAGEYAMA",
-    "anime": "MOB PSYCHO 100",
-    "imgUrl": "https://i.imgur.com/2EvKVNi.png"
-  },
-  {
-    "date": "26-04-2022",
-    "word": "OSAMU",
-    "fullWord": "OSAMU MIYA",
-    "anime": "HAIKYUU!!",
-    "imgUrl": "https://i.imgur.com/1VjvfhY.png"
-  },
-  {
-    "date": "27-04-2022",
-    "word": "CLANK",
-    "fullWord": "CLANK",
-    "anime": "RATCHET & CLANK",
-    "imgUrl": "https://i.imgur.com/jwBjtwj.png"
-  },
-  {
-    "date": "28-04-2022",
-    "word": "JADEN",
-    "fullWord": "JADEN YUKI",
-    "anime": "YU-GI-OH! GX",
-    "imgUrl": "https://i.imgur.com/13z4edR.png"
-  },
-  {
-    "date": "29-04-2022",
-    "word": "KARIN",
-    "fullWord": "KARIN",
-    "anime": "NARUTO",
-    "imgUrl": "https://i.imgur.com/3ei6Fpz.png"
-  },
-  {
-    "date": "30-04-2022",
-    "word": "KENTO",
-    "fullWord": "KENTO NANAMI",
-    "anime": "JUJUTSU KAISEN",
-    "imgUrl": "https://i.imgur.com/9luzXDs.png"
-  },
-  {
-    "date": "01-05-2022",
-    "word": "AZURA",
-    "fullWord": "AZURA",
-    "anime": "FIRE EMBLEM FATES",
-    "imgUrl": "https://i.imgur.com/9ZM468J.png"
-  },
-  {
-    "date": "02-05-2022",
-    "word": "INDEX",
-    "fullWord": "INDEX LIBRORUM PROHIBITORUM",
-    "anime": "A CERTAIN MAGICAL INDEX",
-    "imgUrl": "https://i.imgur.com/oishO5b.png"
-  },
-  {
-    "date": "03-05-2022",
-    "word": "TIDUS",
-    "fullWord": "TIDUS",
-    "anime": "FINAL FANTASY X",
-    "imgUrl": "https://i.imgur.com/JgEIPtO.png"
-  },
-  {
-    "date": "04-05-2022",
-    "word": "MIRAI",
-    "fullWord": "MIRAI KURIYAMA",
-    "anime": "BEYOND THE BOUNDARY",
-    "imgUrl": "https://i.imgur.com/2KgkXRh.png"
-  },
-  {
-    "date": "05-05-2022",
-    "word": "KAINE",
-    "fullWord": "KAIN?",
-    "anime": "NIER",
-    "imgUrl": "https://i.imgur.com/M1PAbNO.png"
-  },
-  {
-    "date": "https://i.imgur.com/ehnT9rb.png",
-    "word": "JOSEE",
-    "fullWord": "JOSEE",
-    "anime": "JOSEE",
-    "imgUrl": "THE TIGER AND THE FISH06-05-2022"
-  },
-  {
-    "date": "07-05-2022",
-    "word": "MAKAR",
-    "fullWord": "MAKAR",
-    "anime": "THE LEGEND OF ZELDA: THE WIND WAKER",
-    "imgUrl": "https://i.imgur.com/7GNazGq.png"
-  },
-  {
-    "date": "08-05-2022",
-    "word": "CANTI",
-    "fullWord": "CANTI",
-    "anime": "FLCL",
-    "imgUrl": "https://i.imgur.com/ZUK6q1R.png"
-  },
-  {
-    "date": "09-05-2022",
+    "date": "09-05-2024",
     "word": "KAORI",
     "fullWord": "KAORI MIYAZONO",
     "anime": "YOUR LIE IN APRIL",
     "imgUrl": "https://i.imgur.com/OwOyHGa.png"
   },
   {
-    "date": "10-05-2022",
-    "word": "FILIA",
-    "fullWord": "FILIA",
-    "anime": "SKULLGIRLS",
-    "imgUrl": "https://i.imgur.com/fpoeuKC.png"
-  },
-  {
-    "date": "11-05-2022",
-    "word": "JUDAR",
-    "fullWord": "JUDAR",
-    "anime": "MAGI: THE LABYRINTH OF MAGIC",
-    "imgUrl": "https://i.imgur.com/dVnCzN2.png"
-  },
-  {
-    "date": "12-05-2022",
-    "word": "ERINA",
-    "fullWord": "ERINA NAKIRI",
-    "anime": "FOOD WARS",
-    "imgUrl": "https://i.imgur.com/MgRFaps.png"
-  },
-  {
-    "date": "13-05-2022",
-    "word": "PEARL",
-    "fullWord": "PEARL",
-    "anime": "SPLATOON 2",
-    "imgUrl": "https://i.imgur.com/zxgdiJ0.png"
-  },
-  {
-    "date": "14-05-2022",
-    "word": "ARALE",
-    "fullWord": "ARALE NORIMAKI",
-    "anime": "DR. SLUMP",
-    "imgUrl": "https://i.imgur.com/sfJKj4k.png"
-  },
-  {
-    "date": "15-05-2022",
-    "word": "CURLY",
-    "fullWord": "CURLY BRACE",
-    "anime": "CAVE STORY",
-    "imgUrl": "https://i.imgur.com/rZkTWER.png"
-  },
-  {
-    "date": "16-05-2022",
-    "word": "LEONE",
-    "fullWord": "LEONE ABBACCHIO",
-    "anime": "JOJO'S BIZARRE ADVENTURE: GOLDEN WIND",
-    "imgUrl": "https://i.imgur.com/uMiMreV.png"
-  },
-  {
     "date": "https://i.imgur.com/r23c1T7.png",
     "word": "RIKKA",
     "fullWord": "RIKKA TAKANASHI",
     "anime": "LOVE",
-    "imgUrl": "CHUNIBYO & OTHER DELUSIONS17-05-2022"
+    "imgUrl": "CHUNIBYO & OTHER DELUSIONS17-05-2024"
   },
   {
-    "date": "18-05-2022",
+    "date": "18-05-2024",
     "word": "TATSU",
     "fullWord": "TATSU",
     "anime": "THE WAY OF THE HOUSEHUSBAND",
     "imgUrl": "https://i.imgur.com/gIfKbcf.png"
   },
   {
-    "date": "19-05-2022",
-    "word": "OKITA",
-    "fullWord": "OKITA SOUJI",
-    "anime": "FATE/KOHA-ACE",
-    "imgUrl": "https://i.imgur.com/Ng7ENZ6.png"
-  },
-  {
-    "date": "20-05-2022",
-    "word": "TERRY",
-    "fullWord": "TERRY BOGARD",
-    "anime": "FATAL FURY",
-    "imgUrl": "https://i.imgur.com/7krIVTg.png"
-  },
-  {
-    "date": "21-05-2022",
-    "word": "IZAYA",
-    "fullWord": "IZAYA ORIHARA",
-    "anime": "DURARARA!!",
-    "imgUrl": "https://i.imgur.com/Z4hmbWq.png"
-  },
-  {
-    "date": "22-05-2022",
-    "word": "TYSON",
-    "fullWord": "TYSON GRANGER",
-    "anime": "BEYBLADE",
-    "imgUrl": "https://i.imgur.com/3axPUOP.png"
-  },
-  {
-    "date": "23-05-2022",
-    "word": "USAGI",
-    "fullWord": "USAGI TSUKINO (SAILOR MOON)",
-    "anime": "SAILOR MOON",
-    "imgUrl": "https://i.imgur.com/NHa5BWV.png"
-  },
-  {
-    "date": "24-05-2022",
+    "date": "24-05-2024",
     "word": "BROOK",
     "fullWord": "BROOK",
     "anime": "ONE PIECE",
     "imgUrl": "https://i.imgur.com/4mLaMXT.png"
   },
   {
-    "date": "25-05-2022",
-    "word": "MIKAN",
-    "fullWord": "MIKAN TSUMIKI",
-    "anime": "DANGANRONPA 2: GOODBYE DESPAIR",
-    "imgUrl": "https://i.imgur.com/Ha75xW9.png"
-  },
-  {
-    "date": "26-05-2022",
-    "word": "YOSHI",
-    "fullWord": "YOSHI",
-    "anime": "SUPER MARIO (SERIES)",
-    "imgUrl": "https://i.imgur.com/RoXxgHu.png"
-  },
-  {
-    "date": "27-05-2022",
-    "word": "AKANE",
-    "fullWord": "AKANE TSUNEMORI",
-    "anime": "PSYCHO-PASS",
-    "imgUrl": "https://i.imgur.com/UnEkt3A.png"
-  },
-  {
-    "date": "28-05-2022",
-    "word": "CHITO",
-    "fullWord": "CHITO",
-    "anime": "GIRLS' LAST TOUR",
-    "imgUrl": "https://i.imgur.com/gwRna6c.png"
-  },
-  {
-    "date": "29-05-2022",
-    "word": "JUMIN",
-    "fullWord": "JUMIN HAN",
-    "anime": "MYSTIC MESSENGER",
-    "imgUrl": "https://i.imgur.com/Cr2jsR2.png"
-  },
-  {
-    "date": "30-05-2022",
-    "word": "RIAMU",
-    "fullWord": "RIAMU YUMEMI",
-    "anime": "THE IDOLMASTER: CINDERELLA GIRLS",
-    "imgUrl": "https://i.imgur.com/mpFgOFt.png"
-  },
-  {
-    "date": "31-05-2022",
-    "word": "HYOGA",
-    "fullWord": "HYOGA",
-    "anime": "DR. STONE",
-    "imgUrl": "https://i.imgur.com/dWogsu3.png"
-  },
-  {
-    "date": "01-06-2022",
-    "word": "MELLO",
-    "fullWord": "MELLO",
-    "anime": "DEATH NOTE",
-    "imgUrl": "https://i.imgur.com/E2QanqA.png"
-  },
-  {
-    "date": "02-06-2022",
-    "word": "TRICO",
-    "fullWord": "TRICO",
-    "anime": "THE LAST GUARDIAN",
-    "imgUrl": "https://i.imgur.com/MGQ5ExN.png"
-  },
-  {
-    "date": "03-06-2022",
-    "word": "CASCA",
-    "fullWord": "CASCA",
-    "anime": "BERSERK",
-    "imgUrl": "https://i.imgur.com/u49ggBX.png"
-  },
-  {
-    "date": "04-06-2022",
-    "word": "LUCIA",
-    "fullWord": "LUCIA FEX",
-    "anime": "PROMARE",
-    "imgUrl": "https://i.imgur.com/iBYoZQH.png"
-  },
-  {
-    "date": "05-06-2022",
-    "word": "ANGUS",
-    "fullWord": "ANGUS DELANEY",
-    "anime": "NIGHT IN THE WOODS",
-    "imgUrl": "https://i.imgur.com/QZ3s8NS.png"
-  },
-  {
-    "date": "06-06-2022",
-    "word": "SILVA",
-    "fullWord": "SILVA ZOLDYCK",
-    "anime": "HUNTER X HUNTER",
-    "imgUrl": "https://i.imgur.com/MACU4wg.png"
-  },
-  {
-    "date": "07-06-2022",
-    "word": "TANYA",
-    "fullWord": "TANYA DEGURECHAFF",
-    "anime": "SAGA OF TANYA THE EVIL",
-    "imgUrl": "https://i.imgur.com/dp4NNK3.png"
-  },
-  {
-    "date": "08-06-2022",
+    "date": "08-06-2024",
     "word": "KANAO",
     "fullWord": "KANAO TSUYURI",
     "anime": "DEMON SLAYER: KIMETSU NO YAIBA",
     "imgUrl": "https://i.imgur.com/qG1Eup8.png"
   },
   {
-    "date": "09-06-2022",
-    "word": "CAMMY",
-    "fullWord": "CAMMY WHITE",
-    "anime": "STREET FIGHTER",
-    "imgUrl": "https://i.imgur.com/dkoUTwG.png"
-  },
-  {
-    "date": "10-06-2022",
+    "date": "10-06-2024",
     "word": "OSANA",
     "fullWord": "OSANA NAJIMI",
     "anime": "KOMI CAN'T COMMUNICATE",
     "imgUrl": "https://i.imgur.com/s87kBk0.png"
   },
   {
-    "date": "11-06-2022",
-    "word": "KUINA",
-    "fullWord": "KUINA NATSUKAWA",
-    "anime": "HINAKO NOTE",
-    "imgUrl": "https://i.imgur.com/e6qQ2x9.png"
-  },
-  {
-    "date": "12-06-2022",
-    "word": "RINDO",
-    "fullWord": "RINDO KANADE",
-    "anime": "NEO: THE WORLD ENDS WITH YOU",
-    "imgUrl": "https://i.imgur.com/axiJc6O.png"
-  },
-  {
-    "date": "13-06-2022",
+    "date": "13-06-2024",
     "word": "ALICE",
     "fullWord": "ALICE ASMODEUS",
     "anime": "WELCOME TO DEMON SCHOOL! IRUMA-KUN (R.I.P. BILLY KAMETZ)",
     "imgUrl": "https://i.imgur.com/RtPVwWL.png"
   },
   {
-    "date": "14-06-2022",
+    "date": "14-06-2024",
     "word": "SAIKI",
     "fullWord": "SAIKI KUSUO",
     "anime": "THE DISASTROUS LIFE OF SAIKI K.",
     "imgUrl": "https://i.imgur.com/Dm9AniJ.png"
   },
   {
-    "date": "15-06-2022",
+    "date": "15-06-2024",
     "word": "ARIES",
     "fullWord": "ARIES",
     "anime": "FAIRY TAIL",
     "imgUrl": "https://i.imgur.com/EfEkMzi.png"
   },
   {
-    "date": "16-06-2022",
+    "date": "16-06-2024",
     "word": "HAISE",
     "fullWord": "HAISE SASAKI",
     "anime": "TOKYO GHOUL",
     "imgUrl": "https://i.imgur.com/RT89jUJ.png"
   },
   {
-    "date": "17-06-2022",
-    "word": "SAMUS",
-    "fullWord": "SAMUS ARAN",
-    "anime": "METROID",
-    "imgUrl": "https://i.imgur.com/qaRrnBK.png"
-  },
-  {
-    "date": "18-06-2022",
-    "word": "CHIYA",
-    "fullWord": "CHIYA",
-    "anime": "URARA MEIROCHOU",
-    "imgUrl": "https://i.imgur.com/P2SkH8m.png"
-  },
-  {
-    "date": "19-06-2022",
-    "word": "ERIKA",
-    "fullWord": "ERIKA FURUDO",
-    "anime": "UMINEKO WHEN THEY CRY",
-    "imgUrl": "https://i.imgur.com/vkl5sKx.png"
-  },
-  {
-    "date": "20-06-2022",
-    "word": "RYUJI",
-    "fullWord": "RYUJI SAKAMOTO",
-    "anime": "PERSONA 5",
-    "imgUrl": "https://i.imgur.com/2kWPkPv.png"
-  },
-  {
-    "date": "21-06-2022",
-    "word": "YUURI",
-    "fullWord": "YUURI KATSUKI",
-    "anime": "YURI!!! ON ICE",
-    "imgUrl": "https://i.imgur.com/gCo1snu.png"
-  },
-  {
-    "date": "22-06-2022",
+    "date": "22-06-2024",
     "word": "BULMA",
     "fullWord": "BULMA",
     "anime": "DRAGON BALL",
     "imgUrl": "https://i.imgur.com/s6993nN.png"
   },
   {
-    "date": "23-06-2022",
-    "word": "CLOUD",
-    "fullWord": "CLOUD STRIFE",
-    "anime": "FINAL FANTASY VII",
-    "imgUrl": "https://i.imgur.com/i16pOj4.png"
-  },
-  {
-    "date": "24-06-2022",
-    "word": "MEIKO",
-    "fullWord": "MEIKO SHIRAKI",
-    "anime": "PRISON SCHOOL",
-    "imgUrl": "https://i.imgur.com/C6DsJzA.png"
-  },
-  {
-    "date": "25-06-2022",
-    "word": "ALISA",
-    "fullWord": "ALISA ILINICHINA AMIELLA",
-    "anime": "GOD EATER",
-    "imgUrl": "https://i.imgur.com/SHug16w.png"
-  },
-  {
-    "date": "26-06-2022",
-    "word": "SONIA",
-    "fullWord": "SONIA",
-    "anime": "POKEMON SWORD/SHIELD",
-    "imgUrl": "https://i.imgur.com/5onyP96.png"
-  },
-  {
-    "date": "27-06-2022",
+    "date": "27-06-2024",
     "word": "TOHRU",
     "fullWord": "TOHRU HONDA",
     "anime": "FRUITS BASKET",
     "imgUrl": "https://i.imgur.com/cNynoG0.png"
   },
   {
-    "date": "28-06-2022",
-    "word": "SHIKI",
-    "fullWord": "SHIKI RYOUGI",
-    "anime": "THE GARDEN OF SINNERS",
-    "imgUrl": "https://i.imgur.com/O8eO4mg.png"
-  },
-  {
-    "date": "29-06-2022",
-    "word": "KAEDE",
-    "fullWord": "KAEDE AZUSAGAWA",
-    "anime": "RASCAL DOES NOT DREAM OF BUNNY GIRL SENPAI",
-    "imgUrl": "https://i.imgur.com/RUEyCUd.png"
-  },
-  {
-    "date": "30-06-2022",
-    "word": "ROXAS",
-    "fullWord": "ROXAS",
-    "anime": "KINGDOM HEARTS",
-    "imgUrl": "https://i.imgur.com/SZ6c8PS.png"
-  },
-  {
-    "date": "01-07-2022",
+    "date": "01-07-2024",
     "word": "USHIO",
     "fullWord": "USHIO KOFUNE",
     "anime": "SUMMER TIME RENDERING",
     "imgUrl": "https://i.imgur.com/pI54nwY.png"
   },
   {
-    "date": "02-07-2022",
-    "word": "CIRNO",
-    "fullWord": "CIRNO",
-    "anime": "TOUHOU PROJECT",
-    "imgUrl": "https://i.imgur.com/P3kaHev.png"
-  },
-  {
-    "date": "03-07-2022",
-    "word": "MIDNA",
-    "fullWord": "MIDNA",
-    "anime": "THE LEGEND OF ZELDA: TWILIGHT PRINCESS",
-    "imgUrl": "https://i.imgur.com/UMLHyoq.png"
-  },
-  {
-    "date": "04-07-2022",
+    "date": "04-07-2024",
     "word": "ALISA",
     "fullWord": "ALISA HAIBA",
     "anime": "HAIKYU!!",
     "imgUrl": "https://i.imgur.com/4guHBWN.png"
   },
   {
-    "date": "05-07-2022",
-    "word": "SHIVA",
-    "fullWord": "SHIVA",
-    "anime": "RECORD OF RAGNAROK",
-    "imgUrl": "https://i.imgur.com/0a5NZFY.png"
+    "date": "07-07-2024",
+    "word": "DENJI",
+    "fullWord": "DENJI",
+    "anime": "CHAINSAW MAN",
+    "imgUrl": "https://i.imgur.com/qcyFORS.png"
   },
   {
-    "date": "06-07-2022",
-    "word": "ARION",
-    "fullWord": "ARION SHERWIND",
-    "anime": "INAZUMA ELEVEN GO",
-    "imgUrl": "https://i.imgur.com/b48cYr5.png"
-  },
-  {
-    "date": "07-07-2022",
+    "date": "07-07-2024",
     "word": "POWER",
     "fullWord": "POWER",
     "anime": "CHAINSAW MAN",
     "imgUrl": "https://i.imgur.com/qcyFORS.png"
   },
   {
-    "date": "08-07-2022",
+    "date": "08-07-2024",
     "word": "FIONA",
     "fullWord": "FIONA FROST",
     "anime": "SPY X FAMILY",
     "imgUrl": "https://i.imgur.com/pym2RSp.png"
   },
   {
-    "date": "20-01-2023",
+    "date": "20-01-2024",
     "word": "ARMIN",
     "fullWord": "ARMIN ARLERT",
     "anime": "ATTACK ON TITAN",
     "imgUrl": "https://i.imgur.com/vAmke3L.png"
   },
   {
-    "date": "21-01-2023",
+    "date": "21-01-2024",
     "word": "TOUKA",
     "fullWord": "TOUKA KIRISHIMA",
     "anime": "TOKYO GHOUL",
     "imgUrl": "https://i.imgur.com/DWGLaNP.png"
   },
   {
-    "date": "22-01-2023",
+    "date": "22-01-2024",
     "word": "MISTY",
     "fullWord": "MISTY",
     "anime": "POKEMON (SERIES)",
     "imgUrl": "https://i.imgur.com/7UqlEwX.png"
   },
   {
-    "date": "23-01-2023",
+    "date": "23-01-2024",
     "word": "MUZAN",
     "fullWord": "MUZAN KIBUTSUJI",
     "anime": "DEMON SLAYER: KIMETSU NO YAIBA",
     "imgUrl": "https://i.imgur.com/neOWRJU.png"
   },
   {
-    "date": "24-01-2023",
-    "word": "CLOUD",
-    "fullWord": "CLOUD STRIFE",
-    "anime": "FINAL FANTASY VII",
-    "imgUrl": "https://i.imgur.com/i16pOj4.png"
-  },
-  {
-    "date": "25-01-2023",
+    "date": "25-01-2024",
     "word": "VIDEL",
     "fullWord": "VIDEL",
     "anime": "DRAGON BALL Z",
     "imgUrl": "https://i.imgur.com/hVEpbxu.png"
   },
   {
-    "date": "26-01-2023",
-    "word": "SHIRO",
-    "fullWord": "SHIRO",
-    "anime": "DEADMAN WONDERLAND",
-    "imgUrl": "https://i.imgur.com/VRBSE0T.png"
-  },
-  {
-    "date": "27-01-2023",
+    "date": "27-01-2024",
     "word": "RAZOR",
     "fullWord": "RAZOR",
     "anime": "GENSHIN IMPACT",
     "imgUrl": "https://i.imgur.com/AZTp5Lf.png"
   },
   {
-    "date": "28-01-2023",
-    "word": "SENKO",
-    "fullWord": "SENKO-SAN",
-    "anime": "THE HELPFUL FOX SENKO-SAN",
-    "imgUrl": "https://i.imgur.com/HtVsDrb.png"
-  },
-  {
-    "date": "29-01-2023",
+    "date": "29-01-2024",
     "word": "JINTA",
     "fullWord": "JINTA YADOMI",
     "anime": "ANOHANA: THE FLOWER WE SAW THAT DAY",
     "imgUrl": "https://i.imgur.com/WoSYDVK.png"
   },
   {
-    "date": "30-01-2023",
+    "date": "30-01-2024",
     "word": "AREZU",
     "fullWord": "AREZU",
     "anime": "POKEMON LEGENDS: ARCEUS",
     "imgUrl": "https://i.imgur.com/s4ZQKFh.png"
   },
   {
-    "date": "31-01-2023",
+    "date": "31-01-2024",
     "word": "KARMA",
     "fullWord": "KARMA AKABANE",
     "anime": "ASSASSINATION CLASSROOM",
     "imgUrl": "https://i.imgur.com/Pkkk39H.png"
   },
   {
-    "date": "01-02-2023",
-    "word": "DANTE",
-    "fullWord": "DANTE",
-    "anime": "DEVIL MAY CRY",
-    "imgUrl": "https://i.imgur.com/hqwGnf1.png"
-  },
-  {
-    "date": "02-02-2023",
-    "word": "PIECK",
-    "fullWord": "PIECK FINGER",
-    "anime": "ATTACK ON TITAN",
-    "imgUrl": "https://i.imgur.com/SuaAn7E.png"
-  },
-  {
-    "date": "03-02-2023",
+    "date": "03-02-2024",
     "word": "KAEDE",
     "fullWord": "KAEDE AZUSAGAWA",
     "anime": "RASCAL DOES NOT DREAM OF BUNNY GIRL SENPAI",
     "imgUrl": "https://i.imgur.com/RUEyCUd.png"
   },
   {
-    "date": "04-02-2023",
-    "word": "SHULK",
-    "fullWord": "SHULK",
-    "anime": "XENOBLADE CHRONICLES",
-    "imgUrl": "https://i.imgur.com/c5S7X3t.png"
-  },
-  {
-    "date": "05-02-2023",
+    "date": "05-02-2024",
     "word": "TRISH",
     "fullWord": "TRISH UNA",
     "anime": "JOJO'S BIZARRE ADVENTURE: GOLDEN WIND",
     "imgUrl": "https://i.imgur.com/NWhBbXw.png"
   },
   {
-    "date": "06-02-2023",
-    "word": "FUSHI",
-    "fullWord": "FUSHI",
-    "anime": "TO YOUR ETERNITY",
-    "imgUrl": "https://i.imgur.com/408PEcF.png"
-  },
-  {
-    "date": "07-02-2023",
-    "word": "BANJO",
-    "fullWord": "BANJO",
-    "anime": "BANJO-KAZOOIE",
-    "imgUrl": "https://i.imgur.com/ai62m2N.png"
-  },
-  {
-    "date": "08-02-2023",
+    "date": "08-02-2024",
     "word": "SINON",
     "fullWord": "SINON",
     "anime": "SWORD ART ONLINE",
     "imgUrl": "https://i.imgur.com/Kwz5ZZp.png"
   },
   {
-    "date": "09-02-2023",
+    "date": "09-02-2024",
     "word": "RANPO",
     "fullWord": "RANPO EDOGAWA",
     "anime": "BUNGO STRAY DOGS",
     "imgUrl": "https://i.imgur.com/a53w8QP.png"
   },
   {
-    "date": "10-02-2023",
+    "date": "10-02-2024",
     "word": "ROXAS",
     "fullWord": "ROXAS",
     "anime": "KINGDOM HEARTS",
