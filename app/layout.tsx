@@ -1,14 +1,13 @@
 import type { Metadata } from "next";
 import { Shojumaru } from 'next/font/google';
 import './globals.css';
-import { ThemeProvider } from '@/components/theme-provider';
-import Navbar from '@/components/Navbar';
-import { Toaster } from '@/components/ui/toaster';
-import Footer from '@/components/Footer';
+import { ThemeProvider } from "@/components/theme-provider";
+import { Toaster } from "@/components/ui/toaster";
+import Footer from "@/components/Footer";
+import Navbar from "@/components/Navbar";
 
 const shojumaru = Shojumaru({ subsets: ['latin'], weight: '400' });
 
-// TODO: Add meta data and icon
 export const metadata: Metadata = {
   metadataBase: new URL("https://otakle.vercel.app/"),
 
