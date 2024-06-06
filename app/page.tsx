@@ -11,7 +11,7 @@ export default function Home() {
     word: "LUFFY",
     fullWord: "MONKEY D LUFFY",
     anime: "ONE PIECE",
-    imgUrl: "https://i.imgur.com/PLAobHS.jpeg",
+    imgUrl: "https://static.zerochan.net/Monkey.D..Luffy.full.3349048.png",
   });
   const [loading, setLoading] = useState(true);
 
