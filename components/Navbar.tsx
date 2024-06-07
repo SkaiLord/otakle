@@ -20,10 +20,12 @@ import { Tile } from './GuessRow';
 import { LetterState } from '@/types';
 import { cn } from '@/lib/utils';
 import { LuGithub } from "react-icons/lu";
-import { usePathname } from "next/navigation";
+import { usePathname, useRouter } from "next/navigation";
+import { getRandomWordId } from "@/utils/gameUtils";
 
 export default function Navbar() {
   const pathname = usePathname();
+  const router = useRouter();
 
   const helpWord = "TABLE".split("");
   const helpStates: LetterState[] = [
@@ -45,10 +47,14 @@ export default function Navbar() {
   if (pathname === "/") return;
   // console.log(pathname);
 
+  const handleNewGame = () => {
+    router.push(`/${getRandomWordId()}`);
+  };
+
   return (
     <nav className="flex h-fit w-full items-center justify-center p-4">
-      <div className="xs:gap-8 flex items-center justify-between md:w-1/2 md:gap-4">
-        <div className="flex items-center gap-4">
+      <div className="xs:gap-8 flex w-full items-center justify-between sm:w-4/5 md:w-1/2 md:gap-4">
+        <div className="xs:gap-4 flex items-center gap-2">
           <DialogButton
             trigger={{
               type: "icon",
@@ -165,7 +171,13 @@ export default function Navbar() {
             trigger={{ type: "icon", icon: <BsGear className="h-6 w-6" /> }}
             title="Settings"
           >
-            <div>Coming Soon!</div>
+            <Button
+              variant="default"
+              className="w-fit hover:bg-crimson hover:text-white"
+              onClick={handleNewGame}
+            >
+              New Game
+            </Button>
           </DialogButton>
         </div>
         <Link href="/" className="flex items-center gap-x-2 text-xl font-bold">
@@ -178,7 +190,7 @@ export default function Navbar() {
           />
           Otakle
         </Link>
-        <div className="flex items-center gap-4">
+        <div className="xs:gap-4 flex items-center gap-2">
           <Link
             href={
               process.env.NEXT_PUBLIC_GITHUB_URL ||
