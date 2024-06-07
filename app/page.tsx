@@ -13,21 +13,21 @@ export default function Home() {
   };
   return (
     <div className="flex h-screen items-center justify-center gap-4">
-      <div className="flex w-1/2 gap-x-4 rounded-lg border-4 border-white bg-tile-wrong p-4">
+      <div className="flex w-4/5 flex-col items-center gap-4 rounded-lg border-4 border-white bg-tile-wrong p-4 md:flex-row lg:w-3/5">
         <Image
           src="/otakle_icons/android-chrome-512x512.png"
-          width={250}
-          height={250}
+          width={200}
+          height={200}
           alt="logo"
           className="h-auto rounded-2xl"
         />
-        <div className="flex flex-grow flex-col items-center justify-center gap-y-8 text-2xl md:text-3xl lg:text-4xl">
-          <div className="decoration-crimson -rotate-2 underline decoration-2 underline-offset-8">
+        <div className="flex flex-grow flex-col items-center justify-center gap-y-8 text-4xl">
+          <div className="-rotate-2 underline decoration-crimson decoration-2 underline-offset-8">
             OTAKLE
           </div>
           <Button
             variant="default"
-            className="hover:bg-crimson text-2xl hover:text-white"
+            className="text-2xl hover:bg-crimson hover:text-white"
             onClick={handlePlay}
           >
             Play Now!

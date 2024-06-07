@@ -21,7 +21,7 @@ export default function Page({ params }: { params: { slug: string } }) {
       setLoading(false);
       // console.log(solution);
     }, 2000);
-  }, []);
+  }, [params]);
   //   console.log(solution);
   // TODO: Add auth layer
   return (
