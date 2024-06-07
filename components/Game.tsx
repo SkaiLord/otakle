@@ -12,7 +12,7 @@ import { useCurrentGuessReducer } from '@/hooks/useCurrentGuessReducer';
 import Image from 'next/image';
 import { useCallback, useEffect, useRef, useState } from 'react';
 import { useToast } from '@/components/ui/use-toast';
-import { isValidWord } from "@/utils/gameUtils";
+import { getRandomWordId, isValidWord } from "@/utils/gameUtils";
 import { getTileStates } from "@/utils/getTileStates";
 import { GameCompletion, GameSolution, LetterState } from "@/types";
 import {
@@ -75,7 +75,7 @@ export default function Game({ solution }: { solution: GameSolution }) {
       setTimeout(() => {
         setGameCompletionState("won");
       }, 2000);
-      // TODO: Add success animation & modal open
+      // TODO: Add success animation
       setTimeout(() => {
         setGameOver(true);
       }, 4000);
@@ -177,6 +177,10 @@ export default function Game({ solution }: { solution: GameSolution }) {
     });
   });
 
+  const handleNewGame = () => {
+    router.push(`/${getRandomWordId()}`);
+  };
+
   return (
     <div className="container flex min-h-screen max-w-4xl flex-col items-center justify-between lg:max-w-6xl 2xl:max-w-7xl">
       <div className="flex w-full max-w-xl flex-col items-center gap-8">
@@ -201,7 +205,6 @@ export default function Game({ solution }: { solution: GameSolution }) {
           letterToLetterState={letterToLetterState}
         />
       </div>
-      {/* TODO: Add modal for new game */}
       {gameOver && (
         <div className="fixed inset-0 z-50 grid place-items-center overflow-auto bg-black/80 p-4 data-[state=open]:animate-in data-[state=closed]:animate-out data-[state=closed]:fade-out-0 data-[state=open]:fade-in-0">
           <div className="relative z-50 grid w-full max-w-lg gap-4 border bg-background p-6 shadow-lg duration-200 data-[state=open]:animate-in data-[state=closed]:animate-out data-[state=closed]:fade-out-0 data-[state=open]:fade-in-0 data-[state=closed]:zoom-out-95 data-[state=open]:zoom-in-95 data-[state=closed]:slide-out-to-left-1/2 data-[state=closed]:slide-out-to-top-[48%] data-[state=open]:slide-in-from-left-1/2 data-[state=open]:slide-in-from-top-[48%] sm:rounded-lg">
@@ -241,7 +244,7 @@ export default function Game({ solution }: { solution: GameSolution }) {
               <Button
                 variant="success"
                 className="w-fit"
-                onClick={() => window.location.reload()}
+                onClick={handleNewGame}
               >
                 New Game
               </Button>
