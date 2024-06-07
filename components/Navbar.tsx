@@ -20,8 +20,11 @@ import { Tile } from './GuessRow';
 import { LetterState } from '@/types';
 import { cn } from '@/lib/utils';
 import { LuGithub } from "react-icons/lu";
+import { usePathname } from "next/navigation";
 
 export default function Navbar() {
+  const pathname = usePathname();
+
   const helpWord = "TABLE".split("");
   const helpStates: LetterState[] = [
     "wrong",
@@ -38,6 +41,9 @@ export default function Navbar() {
     "wrong",
     "wrong",
   ];
+
+  if (pathname === "/") return;
+  // console.log(pathname);
 
   return (
     <nav className="flex h-fit w-full items-center justify-center p-4">

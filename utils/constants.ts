@@ -7,3 +7,5 @@ export const ENTER = 'Enter';
 export const BACKSPACE = 'Backspace';
 
 export const GAME_STATE_KEY = 'wordleGameState';
+
+export const START_DATE = ["03", "06", "2024"];

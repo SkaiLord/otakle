@@ -1,38 +1,39 @@
 'use client';
 
-import Game from '@/components/Game';
-import { Skeleton } from "@/components/ui/skeleton";
-import { getRandomWord, getTodaysWord } from "@/utils/gameUtils";
-import { useEffect, useState } from "react";
+import { Button } from "@/components/ui/button";
+import { getTodaysWordId } from "@/utils/gameUtils";
+import Image from "next/image";
+import { useRouter } from "next/navigation";
 
 export default function Home() {
-  const [solution, setSolution] = useState({
-    date: "04-06-2024",
-    word: "LUFFY",
-    fullWord: "MONKEY D LUFFY",
-    anime: "ONE PIECE",
-    imgUrl: "https://static.zerochan.net/Monkey.D..Luffy.full.3349048.png",
-  });
-  const [loading, setLoading] = useState(true);
-
-  useEffect(() => {
-    setSolution(getRandomWord());
-    setTimeout(() => {
-      setLoading(false);
-      // console.log(solution);
-    }, 2000);
-  }, []);
-  // console.log(solution);
-  // TODO: Add auth layer
-  // TODO: Share url/secret_path
+  const router = useRouter();
+  const handlePlay = () => {
+    const ID = getTodaysWordId();
+    router.push(`/${ID}`);
+  };
   return (
-    <div className="flex flex-col items-center gap-4">
-      {loading ? (
-        <Skeleton className="h-screen w-[50vw] rounded-md" />
-      ) : (
-        <Game solution={solution} />
-      )}
-      {/* TODO: Add statistics/leaderboard */}
+    <div className="flex h-screen items-center justify-center gap-4">
+      <div className="flex w-1/2 gap-x-4 rounded-lg border-4 border-white bg-tile-wrong p-4">
+        <Image
+          src="/otakle_icons/android-chrome-512x512.png"
+          width={250}
+          height={250}
+          alt="logo"
+          className="h-auto rounded-2xl"
+        />
+        <div className="flex flex-grow flex-col items-center justify-center gap-y-8 text-2xl md:text-3xl lg:text-4xl">
+          <div className="decoration-crimson -rotate-2 underline decoration-2 underline-offset-8">
+            OTAKLE
+          </div>
+          <Button
+            variant="default"
+            className="hover:bg-crimson text-2xl hover:text-white"
+            onClick={handlePlay}
+          >
+            Play Now!
+          </Button>
+        </div>
+      </div>
     </div>
   );
 }
