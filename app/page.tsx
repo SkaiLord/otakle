@@ -22,12 +22,12 @@ export default function Home() {
           className="h-auto rounded-2xl"
         />
         <div className="flex flex-grow flex-col items-center justify-center gap-y-8 text-2xl md:text-3xl lg:text-4xl">
-          <div className="-rotate-2 underline decoration-[#d20f18] underline-offset-8">
+          <div className="decoration-crimson -rotate-2 underline decoration-2 underline-offset-8">
             OTAKLE
           </div>
           <Button
             variant="default"
-            className="text-2xl hover:bg-[#d20f18] hover:text-white"
+            className="hover:bg-crimson text-2xl hover:text-white"
             onClick={handlePlay}
           >
             Play Now!

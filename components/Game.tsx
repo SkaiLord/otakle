@@ -22,6 +22,7 @@ import {
 import { IoCloseOutline } from "react-icons/io5";
 import { Button } from "./ui/button";
 import { useRouter } from "next/navigation";
+import { GameOverDialog } from "./GameOverDialog";
 
 export default function Game({ solution }: { solution: GameSolution }) {
   const { toast } = useToast();
@@ -177,10 +178,6 @@ export default function Game({ solution }: { solution: GameSolution }) {
     });
   });
 
-  const handleNewGame = () => {
-    router.push(`/${getRandomWordId()}`);
-  };
-
   return (
     <div className="container flex min-h-screen max-w-4xl flex-col items-center justify-between lg:max-w-6xl 2xl:max-w-7xl">
       <div className="flex w-full max-w-xl flex-col items-center gap-8">
@@ -205,7 +202,8 @@ export default function Game({ solution }: { solution: GameSolution }) {
           letterToLetterState={letterToLetterState}
         />
       </div>
-      {gameOver && (
+      {/* Gameover dialog */}
+      {/* {gameOver && (
         <div className="fixed inset-0 z-50 grid place-items-center overflow-auto bg-black/80 p-4 data-[state=open]:animate-in data-[state=closed]:animate-out data-[state=closed]:fade-out-0 data-[state=open]:fade-in-0">
           <div className="relative z-50 grid w-full max-w-lg gap-4 border bg-background p-6 shadow-lg duration-200 data-[state=open]:animate-in data-[state=closed]:animate-out data-[state=closed]:fade-out-0 data-[state=open]:fade-in-0 data-[state=closed]:zoom-out-95 data-[state=open]:zoom-in-95 data-[state=closed]:slide-out-to-left-1/2 data-[state=closed]:slide-out-to-top-[48%] data-[state=open]:slide-in-from-left-1/2 data-[state=open]:slide-in-from-top-[48%] sm:rounded-lg">
             <div className="absolute right-4 top-4 flex justify-between">
@@ -251,7 +249,13 @@ export default function Game({ solution }: { solution: GameSolution }) {
             </div>
           </div>
         </div>
-      )}
+      )} */}
+      <GameOverDialog
+        open={gameOver}
+        setOpen={setGameOver}
+        gameCompletionState={gameCompletionState}
+        solution={solution}
+      />
     </div>
   );
 }

@@ -53,7 +53,7 @@ export const getRandomWordId = () => {
       Math.floor(Math.random() * (CURRENT_DATE[0] - Number(START_DATE[0]))),
   ).padStart(2, "0");
   const randomId = randomDD + randomMM + randomYYYY;
-  console.log(randomId);
+  // console.log(randomId);
   return randomId;
 };
 

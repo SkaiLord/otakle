@@ -24,11 +24,10 @@ export default function Page({ params }: { params: { slug: string } }) {
   }, []);
   //   console.log(solution);
   // TODO: Add auth layer
-  // TODO: Share url/secret_path
   return (
     <div className="flex flex-col items-center gap-4">
       {loading ? (
-        <Skeleton className="h-screen w-[50vw] rounded-md" />
+        <Skeleton className="h-[85vh] w-5/6 rounded-md md:h-screen md:w-3/5" />
       ) : (
         <Game solution={solution} />
       )}
