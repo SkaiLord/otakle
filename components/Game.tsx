@@ -23,10 +23,13 @@ import { IoCloseOutline } from "react-icons/io5";
 import { Button } from "./ui/button";
 import { useRouter } from "next/navigation";
 import { GameOverDialog } from "./GameOverDialog";
+import useWindowSize from "@/hooks/useWindowSize";
+import ReactConfetti from "react-confetti";
 
 export default function Game({ solution }: { solution: GameSolution }) {
   const { toast } = useToast();
   const router = useRouter();
+  const { width, height } = useWindowSize();
 
   const [currentGuess, dispatch] = useCurrentGuessReducer();
   const [guesses, setGuesses] = useState<string[]>([]);
@@ -36,6 +39,7 @@ export default function Game({ solution }: { solution: GameSolution }) {
   const shakeTimeout = useRef<number>();
 
   const [gameOver, setGameOver] = useState(false);
+  const [showConfetti, setShowConfetti] = useState(true);
 
   const setGuessesCallback = useCallback(
     (guesses: string[]) => {
@@ -80,6 +84,9 @@ export default function Game({ solution }: { solution: GameSolution }) {
       setTimeout(() => {
         setGameOver(true);
       }, 4000);
+      setTimeout(() => {
+        setShowConfetti(false);
+      }, 6000);
       return;
     }
     if (guesses.length + 1 === GAME_ROUNDS) {
@@ -250,6 +257,13 @@ export default function Game({ solution }: { solution: GameSolution }) {
           </div>
         </div>
       )} */}
+      {gameCompletionState === "won" && (
+        <ReactConfetti
+          width={width - 50}
+          height={height - 50}
+          recycle={showConfetti}
+        />
+      )}
       <GameOverDialog
         open={gameOver}
         setOpen={setGameOver}
